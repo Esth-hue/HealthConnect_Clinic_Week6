@@ -58,8 +58,6 @@ The Week 6 analysis continued from the validated Week 5 dataset and did not repe
   
 * Power BI
   
-* Data Science / Predictive Modelling collaboration
-
 ## Week 6 Analysis
 
 ### 1. Booking Lead Time
@@ -174,20 +172,18 @@ A major part of Week 6 was cross-track collaboration with the Data Science team.
 
 The Data Analytics track shared findings relating to:
 
-* Booking lead time
-  
-* Previous no-show history
-  
-* Reminder status
-  
-* Distance
-  
-* Waiting time
-  
-* Age
-  
-* Booking lead time × previous no-show interaction
+* booking lead time × reminder status;
 
+*	previous no-show history × reminder status;
+
+*	booking lead time × previous no-show history;
+
+*	waiting time;
+
+*	distance; and
+
+*	age.
+ 
 Potential modelling variables communicated included:
 
 * booking_lead_days
@@ -199,7 +195,7 @@ Potential modelling variables communicated included:
 
 The interaction between booking lead time and previous no-show history was also highlighted because it produced substantially different risk segments.
 
-These variables were communicated as potential modelling inputs, not confirmed predictive features. Their actual predictive value should be established through Data Science modelling and validation.
+These variables were communicated as potential modelling inputs, not confirmed predictive features. 
 
 ### Cross-Track Evidence Chain
 
